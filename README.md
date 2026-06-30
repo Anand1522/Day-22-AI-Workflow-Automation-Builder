@@ -22,15 +22,15 @@ https://ai-workflow-auto.netlify.app/
 
 ### Screenshot 1
 
-![Screenshot_1](Screenshots/Screenshot_1)
+![Screenshot_1](Screenshots/Screenshot_1.png)
 
 ### Screenshot 2
 
-![Screenshot_2](Screenshots/Screenshot_2)
+![Screenshot_2](Screenshots/Screenshot_2.png)
 
 ### Screenshot 3
 
-![Screenshot_3](Screenshots/Screenshot_3)
+![Screenshot_3](Screenshots/Screenshot_3.png)
 
 ---
 

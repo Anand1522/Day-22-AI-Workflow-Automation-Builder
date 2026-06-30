@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>AI Workflow Automation Builder</title>
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h2 class="logo">
+🤖 AI Workflow
+</h2>
+
+<a href="#builder" class="btn">
+Launch Builder
+</a>
+
+</nav>
+
+<section class="hero">
+
+<span class="badge">
+
+✨ AI Powered Workflow Automation
+
+</span>
+
+<h1>
+
+Build AI Workflows
+
+Without Writing Code
+
+</h1>
+
+<p>
+
+Create intelligent workflows,
+simulate AI execution,
+and automate tasks visually —
+all in your browser.
+
+</p>
+
+<a href="#builder"
+class="hero-btn">
+
+Try Live Demo
+
+</a>
+
+</section>
+
+</header>
+
+<!-- FEATURES -->
+
+<section class="features">
+
+<h2>
+
+Why Use It?
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>
+
+⚡ No Code
+
+</h3>
+
+<p>
+
+Create workflows visually.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+🤖 AI Powered
+
+</h3>
+
+<p>
+
+Simulated AI execution.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+🚀 Fast
+
+</h3>
+
+<p>
+
+Run workflows instantly.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- HOW -->
+
+<section class="steps">
+
+<h2>
+
+How It Works
+
+</h2>
+
+<div class="timeline">
+
+<div>
+
+1️⃣
+
+<p>Select Template</p>
+
+</div>
+
+<div>
+
+2️⃣
+
+<p>Run Workflow</p>
+
+</div>
+
+<div>
+
+3️⃣
+
+<p>View AI Output</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BUILDER -->
+
+<section
+id="builder"
+class="builder">
+
+<h2>
+
+AI Workflow Builder
+
+</h2>
+
+<div class="builder-grid">
+
+<div class="panel">
+
+<label>
+
+Workflow Template
+
+</label>
+
+<select id="template">
+
+<option>
+
+📧 Email → Summarize → Slack
+
+</option>
+
+<option>
+
+📄 PDF → Extract Text → Google Docs
+
+</option>
+
+<option>
+
+📄 Resume → Analyze → HR System
+
+</option>
+
+<option>
+
+🖼 Image → Generate Caption → Email
+
+</option>
+
+</select>
+
+<button
+id="runBtn">
+
+▶ Run Workflow
+
+</button>
+
+</div>
+
+<div class="panel">
+
+<h3>
+
+Workflow
+
+</h3>
+
+<div class="workflow">
+
+<div
+id="step1"
+class="node">
+
+Trigger
+
+</div>
+
+<div class="arrow">
+
+↓
+
+</div>
+
+<div
+id="step2"
+class="node">
+
+AI
+
+</div>
+
+<div class="arrow">
+
+↓
+
+</div>
+
+<div
+id="step3"
+class="node">
+
+Action
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- EXECUTION -->
+
+<section class="execution">
+
+<h2>
+
+Execution
+
+</h2>
+
+<div class="progress">
+
+<div
+id="progressBar">
+
+</div>
+
+</div>
+
+<div
+id="logs"
+class="logs">
+
+Ready...
+
+</div>
+
+</section>
+
+<!-- OUTPUT -->
+
+<section>
+
+<h2>
+
+AI Output
+
+</h2>
+
+<pre
+id="output">
+
+Run a workflow...
+
+</pre>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026
+
+AI Workflow Automation Builder
+
+Made for the
+
+30 Days • 30 AI Websites Challenge 🚀
+
+</p>
+
+</footer>
+
+<script
+src="script.js">
+
+</script>
+
+</body>
+
+</html>
